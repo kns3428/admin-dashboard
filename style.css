@@ -7,3 +7,29 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
 }
+
+.content {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.shows {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tvshow {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.title {
+  color: blue;
+  font-weight: 700;  
+}
+
+img {
+  width: 100px;
+}
